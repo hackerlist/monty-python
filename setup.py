@@ -24,7 +24,8 @@ setup(
     platforms='any',
     license='LICENSE',
     install_requires=[
-        'requests >= 1.1.0'
+        'requests >= 1.1.0',
+        'simplejson >= 2.5.2'
     ],
     description="Python API Bindings for the Monty server monitoring Go library",
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
